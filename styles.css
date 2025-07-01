@@ -79,3 +79,12 @@ tfoot th {
   tfoot td {
    font-weight: bold;
 }
+
+hr {
+  border: none;
+  height: 2px;
+  background: #3498db; /* Blue color */
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 4px;
+}
