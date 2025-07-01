@@ -88,3 +88,10 @@ hr {
   margin: 40px auto;
   border-radius: 4px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  height: 100vh;            /* optional, full screen height */
+}
