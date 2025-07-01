@@ -28,10 +28,17 @@ ul {
 }
 
 .profile-img {
-  width: 200px;
-  border-radius: 10px;
-  border: 2px solid #555;
-  margin-bottom: 20px;
+  width: 150px;           
+  height: 150px;            
+  border-radius: 50%;       
+  object-fit: cover;        
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);  
+  border: 3px solid #808080;   
+  transition: transform 0.3s ease; 
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
 }
 
 table {
@@ -45,4 +52,30 @@ th, td {
   text-align: center;
   background-color: #ecf0f1;
   border: 1px solid #000;
+}
+
+caption {
+   caption-side: bottom;
+   padding: 10px;
+   font-weight: bold;
+}
+
+thead,tfoot {
+   background-color: rgb(228 240 245);
+}
+
+td:last-of-type {
+   text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+   background-color: rgb(237 238 242);
+}
+
+tfoot th {
+   text-align: right;
+}
+
+  tfoot td {
+   font-weight: bold;
 }
